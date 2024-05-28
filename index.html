@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <!-- <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/ml5@0.7.0/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h3 class="heading">CASE STUDY BETWEEN GOOGLE LENS AND MOBILNET</h3>
+        <img src="google lens.png" class="logo">
+        <h2>VS</h2>
+        <button class="btn btn-info">Mobilenet</button>
+
+        <hr>
+        <center>
+            <div class="test_image col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test image - </b>
+                    <br>
+                    <img src="bottle.jpg" class="img-reponsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLR LENS</b> - 
+                    <snap> Water bottle </snap>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model</b> -
+                    <snap> Water bottle </snap>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12">
+                    <h4> Results - </h4>
+                    <hr>
+                    <h4> Both are the same </h4>
+                </div>
+                
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="test_image col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test image - </b>
+                    <br>
+                    <img src="bed.jpg" class="img-reponsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLR LENS</b> - 
+                    <snap> bed, pillow, blanket </snap>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model</b> -
+                    <snap> Bathtub, tub </snap>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12">
+                    <h4> Results - </h4>
+                    <hr>
+                    <h4> Google lens is more accurate </h4>
+                </div>
+                
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div class="test_image col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test image - </b>
+                    <br>
+                    <img src="shoes.jpg" class="img-reponsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLR LENS</b> - 
+                    <snap> Nike shoes </snap>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>Mobilenet Model</b> -
+                    <snap> Running shoes </snap>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12">
+                    <h4> Results - </h4>
+                    <hr>
+                    <h4> Google lens is more accurate </h4>
+                </div> 
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <div>
+                <h4>I have tested 3 images.
+                    <br> GOOGLE LENS has accurately predicted 3 correctly. While, Mobilenet has accurately predicted 1 correctly.
+                    <br> S0 according to my case study GOOGLE LENS is more accurate
+                </h4>
+            </div>
+            <br><br><br>
+
+        </center>
+    </center>
+
+
+
+
+
+
+
+    <div class="copy_right_footer">
+        Developed by - Ritika Mittal
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
